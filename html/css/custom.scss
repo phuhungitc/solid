@@ -44,11 +44,37 @@ body{
     font-family: "SFUFuturaBold", Arial;
     color: $primary_color;
   }
+  a,a:hover{
+    text-decoration: none;
+    outline: none !important;
+  }
+  .btn{
+    background: $second_color;
+    border-radius: 0;
+    color: $primary_color;
+    font-family: "SFUFuturaBold", Arial;
+    padding-bottom: 8px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    &:hover{
+      border: 1px solid $second_color;
+      background: #fff;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+  }
 }
 //header
 #header_site{
   padding: 15px 0;
   background: #fff;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
     .menu_primary {
       display: flex;
       height: 100%;
@@ -78,6 +104,19 @@ body{
         }
       }
     }
+    &.fixed-top.fixed{
+      animation: smoothScroll 1s forwards;
+      -webkit-animation: smoothScroll 1s forwards;
+      -moz-animation: smoothScroll 1s forwards;
+      -o-animation: smoothScroll 1s forwards;
+      width: 100%;
+      background: #fff;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
 }
 //banner
 .banner{
@@ -98,6 +137,17 @@ body{
     font-size: 40px;
     color: $second_color;
     font-family: "JosefinSans-SemiBold", Arial;
+    svg {
+      width: 180px;
+      position: absolute;
+      left: -100px;
+      top: -30px;
+    }
+    .cls-1 {
+      fill: none;
+      stroke: #fdb813;
+      stroke-width: 2px;
+    }
     p{
       margin-bottom: 0;
     }
@@ -108,16 +158,7 @@ body{
       color: $second_color;
       margin: 0;
     }
-    &:before{
-      width: 50%;
-      height: 220%;
-      content: "";
-      position: absolute;
-      background: url($url_image + 'border.png') no-repeat center center/ contain;
-      left: -25%;
-      top: -15%;
-      pointer-events: none;
-    }
+
 
   }
 
@@ -150,10 +191,19 @@ body{
     .title_service{
       font-family: "SFUFuturaBold", Arial;
       font-size: $font_size_medium;
-      color: $primary_color;
       margin-top: 15px;
       min-height: 50px;
       padding-left: 30px;
+      position: relative;
+      z-index: 2;
+      a{
+        color: $primary_color;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
     }
     &:before{
       position: absolute;
@@ -165,11 +215,65 @@ body{
       top: 0;
       pointer-events: none;
     }
-    img{
+    &:after{
+      position: absolute;
+      content: "";
+      border: 2px solid $second_color;
+      height: 100%;
+      width: 0;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+      background: $second_color;
+      opacity: 0;
       z-index: 1;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+    figure.effect-apollo{
+      z-index: 3;
       position: relative;
-      padding-left: 30px;
-      width: 100%;
+      margin-left: 30px;
+      overflow: hidden;
+      img{
+        width: 100%;
+      }
+    }
+    &:hover{
+      &:after{
+        width: calc(100% - 60px);
+        opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      img{
+        opacity: 1;
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+      }
+      figcaption::before {
+        -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+        transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+      }
+      p {
+        opacity: 1;
+        -webkit-transition-delay: 0.1s;
+        transition-delay: 0.1s;
+      }
+      a{
+        color: #fff;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
     }
   }
 }
@@ -203,6 +307,101 @@ body{
     &.margin-large{
       margin-top: 200px;
     }
+    figure{
+      position: relative;
+      overflow: hidden;
+      img{
+        width: 100%;
+      }
+      &:before{
+        background: rgba(43,55,132,0.65);
+        position: absolute;
+        content: "";
+        width: 50%;
+        height: 50%;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      &:after{
+        background: rgba(43,55,132,0.65);
+        position: absolute;
+        content: "";
+        width: 50%;
+        height: 50%;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      .detail{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: -100%;
+        z-index: 3;
+        text-align: center;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        a{
+          background: $second_color;
+          padding: 5px 15px;
+          top: 50%;
+          left: 50%;
+          position: absolute;
+          -webkit-transform: translate(-50%,-50%);
+          -moz-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+          -o-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+        }
+      }
+      figcaption{
+        &:before{
+          background: rgba(43,55,132,0.65);
+          position: absolute;
+          content: "";
+          width: 50%;
+          height: 50%;
+          right: 0;
+          top: 0;
+          opacity: 0;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+        }
+        &:after{
+          background: rgba(43,55,132,0.65);
+          position: absolute;
+          content: "";
+          width: 50%;
+          height: 50%;
+          left: 0;
+          bottom: 0;
+          opacity: 0;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+        }
+      }
+    }
     .title_service{
       font:{
         family: "SFUFuturaBold", Arial;
@@ -216,6 +415,66 @@ body{
           family: "SFUFuturaBook", Arial;
           size: 14px;
         }
+      }
+      a{
+        color: #808080;
+      }
+    }
+    &:hover{
+      figure:before{
+       left: 50%;
+        opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      figure:after{
+       right: 50%;
+        opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      figcaption:before{
+       top: 50%;
+        opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      figcaption:after{
+       bottom: 50%;
+        opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      .title_service{
+        a{
+          color: $primary_color;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+        }
+
+      }
+      .detail{
+        top: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
       }
     }
   }
@@ -238,5 +497,98 @@ body{
   }
   .design-by{
     margin-bottom: 15px;
+  }
+}
+
+
+/*-----------------*/
+/***** Apollo *****/
+/*-----------------*/
+
+figure.effect-apollo {
+  img {
+    opacity: 1;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+  }
+  figcaption{
+    &:before{
+      position: absolute;
+      z-index: 222;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,0.5);
+      content: '';
+      -webkit-transition: -webkit-transform 0.6s;
+      transition: transform 0.6s;
+      -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+      transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    }
+  }
+  p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 3em;
+    padding: 0 1em;
+    max-width: 150px;
+    border-right: 4px solid #fff;
+    text-align: right;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+  &:hover {
+    img{
+      opacity: 1;
+      -webkit-transform: scale3d(1,1,1);
+      transform: scale3d(1,1,1);
+    }
+    figcaption::before {
+      -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+      transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+    }
+    p {
+      opacity: 1;
+      -webkit-transition-delay: 0.1s;
+      transition-delay: 0.1s;
+    }
+  }
+}
+
+@-webkit-keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-moz-keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-o-keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
