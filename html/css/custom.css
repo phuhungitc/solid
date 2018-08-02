@@ -113,3 +113,114 @@ body h1, body h2, body h3, body h4 {
   top: -15%;
   pointer-events: none;
 }
+
+.intro {
+  padding-top: 100px;
+  background: url("../images/Dbackground.png") no-repeat 5% 50%;
+  padding-bottom: 80px;
+}
+.intro h3 {
+  margin-bottom: 0;
+}
+.intro .intro-right {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.service {
+  background: url("../images/servicebg.png") no-repeat left bottom 700px/100% auto;
+  padding-top: 180px;
+}
+.service p {
+  margin-bottom: 0;
+}
+.service .item_service {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 30px 0;
+  position: relative;
+}
+.service .item_service .title_service {
+  font-family: "SFUFuturaBold", Arial;
+  font-size: 18px;
+  color: #2B3784;
+  margin-top: 15px;
+  min-height: 50px;
+  padding-left: 30px;
+}
+.service .item_service:before {
+  position: absolute;
+  content: "";
+  border: 2px solid #FDB813;
+  height: 100%;
+  width: calc(100% - 60px);
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.service .item_service img {
+  z-index: 1;
+  position: relative;
+  padding-left: 30px;
+  width: 100%;
+}
+
+.project {
+  background: #f0f0f0 url("../images/bgproject.png") no-repeat center center/cover;
+  padding: 50px 0;
+}
+.project h4 {
+  margin-top: 70px;
+  padding-left: 50px;
+  position: relative;
+  line-height: 90px;
+}
+.project h4:before {
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  content: "";
+  left: 0;
+  top: -60px;
+  border: 2px solid #FDB813;
+}
+.project h4 span {
+  background-color: #F0F0F0;
+  z-index: 1;
+  position: relative;
+}
+.project .item_project {
+  margin-top: 50px;
+}
+.project .item_project.margin-large {
+  margin-top: 200px;
+}
+.project .item_project .title_service {
+  font-family: "SFUFuturaBold", Arial;
+  font-size: 18px;
+  color: #808080;
+  margin-top: 15px;
+  min-height: 50px;
+}
+.project .item_project .title_service .position font {
+  family: "SFUFuturaBook", Arial;
+  size: 14px;
+}
+
+#footer-site {
+  margin-top: 50px;
+}
+#footer-site .logo-footer {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+#footer-site p {
+  margin-bottom: 0;
+  color: #2B3784;
+}
+#footer-site .copyright {
+  margin-top: 30px;
+}
+#footer-site .design-by {
+  margin-bottom: 15px;
+}
