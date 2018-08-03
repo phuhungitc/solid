@@ -14,8 +14,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="297" column="30" lean-forward="true" selection-start-line="297" selection-start-column="30" selection-end-line="297" selection-end-column="30" />
+            <state relative-caret-position="530">
+              <caret line="312" column="33" lean-forward="true" selection-start-line="312" selection-start-column="33" selection-end-line="312" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -23,8 +23,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="462">
+              <caret line="58" column="12" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="58" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -32,8 +32,8 @@
       <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="419" column="23" selection-start-line="419" selection-start-column="23" selection-end-line="419" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="445" column="18" selection-start-line="445" selection-start-column="18" selection-end-line="445" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -78,8 +78,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/_variable.scss" />
         <option value="$PROJECT_DIR$/js/briefscript.js" />
-        <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/css/custom.scss" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -159,16 +159,15 @@
       <updated>1533110939150</updated>
       <workItem from="1533110940565" duration="11055000" />
       <workItem from="1533137984016" duration="3423000" />
-      <workItem from="1533176623768" duration="18452000" />
+      <workItem from="1533176623768" duration="20987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32930000" />
+    <option name="totallyTimeSpent" value="35465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -265,24 +264,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/css/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="238">
+          <caret line="445" column="18" selection-start-line="445" selection-start-column="18" selection-end-line="445" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.scss">
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="419" column="23" selection-start-line="419" selection-start-column="23" selection-end-line="419" selection-end-column="23" />
+        <state relative-caret-position="462">
+          <caret line="58" column="12" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="58" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="297" column="30" lean-forward="true" selection-start-line="297" selection-start-column="30" selection-end-line="297" selection-end-column="30" />
+        <state relative-caret-position="530">
+          <caret line="312" column="33" lean-forward="true" selection-start-line="312" selection-start-column="33" selection-end-line="312" selection-end-column="33" />
         </state>
       </provider>
     </entry>
