@@ -698,66 +698,35 @@ function create_shortcode_slider($args, $content)
 {
     $id = $args['id'];
     ?>
-    <div class="slider slider_primary" data-slideid="jssor_<?php echo $id ?>">
-        <div id="jssor_<?php echo $id ?>"
-             style="position:relative;margin:0 auto;top:0px;left:0px;width:1920px;height:500px;overflow:hidden;visibility:hidden;">
-            <!-- Loading Screen -->
-            <div data-u="loading" class="jssorl-004-double-tail-spin"
-                 style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
-                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
-                     src="<?php echo get_template_directory_uri() ?>/img/double-tail-spin.svg"/>
-            </div>
-            <div data-u="slides"
-                 style="cursor:default;position:relative;top:0px;left:0px;width:1920px;height:500px;overflow:hidden;">
-                <?php
-                $argsslide = array(
-                    'posts_per_page' => 1,
-                    'post_type' => 'slider',
-                    'post__in' => array($id),
-                    'post_status' => 'publish',
-                );
-                $allslider = new WP_Query($argsslide);
-                if ($allslider->have_posts()):while ($allslider->have_posts()): $allslider->the_post();
-                    foreach (get_field('slider_item') as $v):
-                        ?>
-                        <div data-p="303" class="slide-item <?php the_ID(); ?>"
-                             data-amnslider="<?php echo $v['amination'] ?>">
-                            <img data-u="image" src="<?php echo $v['image_slider'] ?>" class="img-fluid"/>
-                        </div>
-                    <?php
-                    endforeach;
-                endwhile;
-                endif;
-                wp_reset_query(); ?>
-
-            </div>
-            <!-- Bullet Navigator -->
-            <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;"
-                 data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+    <div class="primaryslider owl-carousel owl-theme">
+        <?php
+        $argsslide = array(
+            'posts_per_page' => 1,
+            'post_type' => 'slider',
+            'post__in' => array($id),
+            'post_status' => 'publish',
+        );
+        $allslider = new WP_Query($argsslide);
+        if ($allslider->have_posts()):while ($allslider->have_posts()): $allslider->the_post();
+            foreach (get_field('slider_item') as $v):
+                ?>
+            <div class="item_banner text-center">
+                <img src="<?php echo $v['image_slider'] ?>" class="img-fluid" alt="">
+                <?php if($v['content']['content_slider_line_first']&&$v['content']['content_slider_line_second']):?>
+                <div class="meta_info">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 308">
+                        <path id="Path_213" data-name="Path 213" class="cls-1" d="M247-171v-33.5H68v306H245.5v-140" transform="translate(-67 205.5)"/>
                     </svg>
+                    <p><?php echo $v['content']['content_slider_line_first']?></p>
+                    <h3><?php echo $v['content']['content_slider_line_second']?></h3>
                 </div>
+                <?php endif;?>
             </div>
-            <!-- Arrow Navigator -->
-            <div data-u="arrowleft" class="jssora094" style="width:50px;height:50px;top:0px;left:30px;"
-                 data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <circle class="c" cx="8000" cy="8000" r="5920"></circle>
-                    <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
-                    <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
-                </svg>
-            </div>
-            <div data-u="arrowright" class="jssora094" style="width:50px;height:50px;top:0px;right:30px;"
-                 data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <circle class="c" cx="8000" cy="8000" r="5920"></circle>
-                    <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
-                    <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
-                </svg>
-            </div>
-        </div>
+            <?php
+            endforeach;
+        endwhile;
+        endif;
+        wp_reset_query(); ?>
     </div>
     <?php
 }

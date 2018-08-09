@@ -43,9 +43,15 @@
                 </ul>
             </div>
             <div class="col-sm-2 text-right" data-aos="fade-right">
+                <?php if(function_exists('get_field')&&get_field('scroll_on_top','option')==true):?>
                 <div id="goTop">
-                    <img src="<?php echo get_template_directory_uri()?>/images/gotop.png" class="img-fluid" alt="">
+                    <?php if (get_field('image_for_scroll_on_top', 'option')):?>
+                    <img src="<?php echo get_field('image_for_scroll_on_top', 'option')?>" class="img-fluid" alt="<?php _e("Scroll on top", "comma-solid") ?>">
+                    <?php else:?>
+                        <img src="<?php echo get_template_directory_uri()?>/images/gotop.png" class="img-fluid" alt="<?php _e("Scroll on top", "comma-solid") ?>">
+                    <?php endif;?>
                 </div>
+                <?php endif;?>
             </div>
         </div>
         <div class="copyright">
@@ -56,6 +62,7 @@
         </div>
     </div>
 </footer>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7cMS6OiPABZtUyEwn0xbKF1hkfH0NZB0"></script>
 <?php wp_footer(); ?>
 
 </body>

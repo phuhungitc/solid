@@ -13,31 +13,27 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1 class="title_page" data-aos="fade-left">Giới thiệu</h1>
-                    <figure data-aos="flip-up">
-                        <img src="<?php echo get_template_directory_uri()?>/images/logo_intro.png" class="img-fluid img-intro" alt="">
+                    <h1 class="title_page" data-aos="fade-left">
+                        <?php the_title()?>
+                    </h1>
+                    <figure data-aos="fade-left">
+                        <img src="<?php echo get_field('left')['image_first']['url']?>" class="img-fluid img-intro" alt="">
                     </figure>
                     <div class="row justify-content-end">
                         <div class="col-sm-9">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="content_first text-justify" data-aos="fade-up">
-                                        <p>Lorem ipsum dolor sit amet, conseeaer
-                                            adipiscing elit. Aenean commodo ligua
-                                            eget dolor. Aenean massa. Cum sociis
-                                            natoque penatibus et magnis dismoné,
-                                            na ridiculus mus. Donec quam felis,
-                                            ultries nec, pellentesque eu, pretium qs,</p>
+                                        <p>
+                                            <?php echo get_field('left')['content_first']?>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="content_first text-justify" data-aos="fade-up">
-                                        <p>Lorem ipsum dolor sit amet, conseeaer
-                                            adipiscing elit. Aenean commodo ligua
-                                            eget dolor. Aenean massa. Cum sociis
-                                            natoque penatibus et magnis dismoné,
-                                            na ridiculus mus. Donec quam felis,
-                                            ultries nec, pellentesque eu, pretium qs</p>
+                                        <p>
+                                            <?php echo get_field('left')['content_second']?>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +47,7 @@ get_header();
                     </div>
                     <div class="hover05" data-aos="fade-right">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri()?>/images/intro.png" class="img-fluid" alt="">
+                            <img src="<?php echo get_field('image_second')['url']?>" class="img-fluid" alt="">
                         </figure>
                     </div>
                 </div>
@@ -59,20 +55,16 @@ get_header();
             <div class="box_first end">
                 <div class="row">
                     <div class="col-sm-3" data-aos="fade-up" data-aos-delay="200">
-                        <p><strong>CÔNG TY CP THIẾT KẾ – THI CÔNG</strong></p>
-                        <p><strong>NỘI THẤT SOLID</strong></p>
+                        <p><?php echo get_field('content_bt_first')?></p>
                     </div>
                     <div class="col-sm-3"  data-aos="fade-up" data-aos-delay="500">
-                        <p><strong>Trụ sở chính:</strong></p>
-                        <p>305 Lê Văn Sỹ, Tân Bình, tp.HCM</p>
+                        <p><?php echo get_field('content_bt_second')?></p>
                     </div>
                     <div class="col-sm-3"  data-aos="fade-up" data-aos-delay="800">
-                        <p><strong>Xưởng sản xuất đồ gỗ:</strong></p>
-                        <p>305 Lê Văn Sỹ, Tân Bình, tp.HCM</p>
+                        <p><?php echo get_field('content_bt_third')?></p>
                     </div>
                     <div class="col-sm-3"  data-aos="fade-up" data-aos-delay="1100">
-                        <p><strong>Xưởng sản xuất cơ khí:</strong></p>
-                        <p>9 Đường Số 24, Long Thạnh Mỹ, Q.9</p>
+                        <p><?php echo get_field('content_bt_fourth')?></p>
                     </div>
                 </div>
             </div>
@@ -83,21 +75,21 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="hover05" data-aos="fade-left">
-                        <figure>
-                            <img src="<?php echo get_template_directory_uri()?>/images/intro_2.png" class="img-fluid" alt="">
+                    <div class="hover05">
+                        <figure data-aos="fade-left">
+                            <img  src="<?php echo get_field('image_third')['url']?>" class="img-fluid" alt="">
                         </figure>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h3 class="title_page" data-aos="fade-right">
-                        <span>Sau một sản phẩm tốt <br>
-                        là một tập thể con người <br>
-                        tận tụy và trách nhiệm</span>
+                        <span>
+                            <?php echo get_field('right')['title_first']?>
+                        </span>
                     </h3>
-                    <p data-aos="fade-up">Lorem ipsum dolor sit amet, conseeaer
-                        adipiscing elit. Aenean commodo ligua eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dismoné, na ridiculus mus. Donec quam felis,
-                        ultries nec, pellentesque eu, pretium qs, sem. Nulla consequat mass quis enim..</p>
+                    <p data-aos="fade-up">
+                        <?php echo get_field('right')['content']?>
+                    </p>
                 </div>
             </div>
         </div>
@@ -107,24 +99,24 @@ get_header();
             <div class="row justify-content-center">
                 <div class="col-sm-3 text-center">
                     <figure data-aos="flip-left">
-                        <img src="<?php echo get_template_directory_uri()?>/images/por1.png" class="img-fluid" alt="">
+                        <img src="<?php echo get_field('left_por')['image']['url']?>" class="img-fluid" alt="">
                     </figure>
-                    <h4 class="title_medium" data-aos="fade-left">Uy tín hàng đầu</h4>
-                    <p data-aos="fade-down">Lorem ipsum dolor sit amet, conseeaer adipiscing elit. Aenean commodo.</p>
+                    <h4 class="title_medium" data-aos="fade-left"><?php echo get_field('left_por')['title']?></h4>
+                    <p data-aos="fade-left"><?php echo get_field('left_por')['content']?></p>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <figure data-aos="fade-left">
+                        <img src="<?php echo get_field('center_por')['image']['url']?>" class="img-fluid" alt="">
+                    </figure>
+                    <h4 class="title_medium" data-aos="fade-up"><?php echo get_field('center_por')['title']?></h4>
+                    <p data-aos="fade-up"><?php echo get_field('center_por')['content']?></p>
                 </div>
                 <div class="col-sm-3 text-center">
                     <figure data-aos="flip-left">
-                        <img src="<?php echo get_template_directory_uri()?>/images/por2.png" class="img-fluid" alt="">
+                        <img src="<?php echo get_field('right_por')['image']['url']?>" class="img-fluid" alt="">
                     </figure>
-                    <h4 class="title_medium" data-aos="fade-down">Cam kết chuẩn mực</h4>
-                    <p data-aos="fade-down">Lorem ipsum dolor sit amet, conseeaer adipiscing elit. Aenean commodo.</p>
-                </div>
-                <div class="col-sm-3 text-center">
-                    <figure data-aos="flip-left">
-                        <img src="<?php echo get_template_directory_uri()?>/images/por3.png" class="img-fluid" alt="">
-                    </figure>
-                    <h4 class="title_medium" data-aos="fade-right">Hậu mãi chu đáo</h4>
-                    <p data-aos="fade-down">Lorem ipsum dolor sit amet, conseeaer adipiscing elit. Aenean commodo.</p>
+                    <h4 class="title_medium" data-aos="fade-right"><?php echo get_field('right_por')['title']?></h4>
+                    <p data-aos="fade-right"><?php echo get_field('right_por')['content']?></p>
                 </div>
             </div>
         </div>
@@ -135,13 +127,13 @@ get_header();
                 <div class="col-sm-11">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h4 class="title_page" data-aos="fade-left"><span>Tầm nhìn và sứ mệnh</span></h4>
+                            <h4 class="title_page" data-aos="fade-left"><span>
+                                    <?php echo get_field('left_end')['title']?>
+                                </span></h4>
                             <div class="row">
                                 <div class="col-sm-8">
                                     <p data-aos="fade-up">
-                                        Lorem ipsum dolor sit amet, conseeaer
-                                        adipiscing elit. Aenean commodo ligua eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dismoné, na ridiculus mus. Donec quam felis,
-                                        ultries nec, pellentesque eu, pretium qs, sem. Nulla consequat mass quis enim. Nulla.
+                                        <?php echo get_field('left_end')['content']?>
                                     </p>
                                 </div>
                             </div>
@@ -150,7 +142,7 @@ get_header();
                         <div class="col-sm-6">
                             <div class="hover05" data-aos="fade-right">
                                 <figure>
-                                    <img src="<?php echo get_template_directory_uri()?>/images/intro_3.png" class="img-fluid" alt="">
+                                    <img src="<?php echo get_field('image_end')['url']?>" class="img-fluid" alt="">
                                 </figure>
                             </div>
                         </div>

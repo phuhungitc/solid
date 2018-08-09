@@ -9,7 +9,6 @@ Apps = {
                 }
                 else if (scroll == 0) {
                     sticky.removeClass('fixed');
-
                 }
             });
         }
@@ -52,6 +51,27 @@ Apps = {
             })
         }
 
+    },
+    mapcontact: function () {
+        if(jQuery('#map').length){
+            var map;
+            var uluru = {lat: 10.787389, lng: 106.678429};
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: uluru,
+                zoom: 15
+            });
+            var contentString = "Test";
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({position: uluru, map: map,title: 'Title'});
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+
+
+        }
     }
 
 };
@@ -60,6 +80,7 @@ jQuery(document).ready(function(){
     Apps.drawsvgfunc();
     Apps.slider();
     Apps.scrolltop();
+    Apps.mapcontact();
     AOS.init({
         duration: 600,
         easing: 'ease-in-sine',

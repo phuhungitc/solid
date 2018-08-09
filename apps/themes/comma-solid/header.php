@@ -16,7 +16,6 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-
     <?php wp_head(); ?>
     <?php
     if(function_exists('get_field')&&get_field('google_analytics','option')==true):
@@ -34,13 +33,13 @@
 </head>
 
 <body <?php body_class(); ?>>
-<header id="header_site" class="fixed-top">
+<header id="header_site" class="<?php echo (function_exists('get_field')&&get_field('fixed_on_scroll','option')==true)? 'fixed-top' : 'none-fixed';?>">
     <div class="container">
         <div class="row">
             <div class="col-sm-2" data-aos="fade-right">
                 <a href="<?php echo site_url()?>" title="<?php echo bloginfo('title')?>">
                     <?php if(function_exists('get_field')&&get_field('logo','option')):?>
-                    <img src="<?php echo get_template_directory_uri()?>/images/logopri.png" class="img-fluid" alt="<?php echo bloginfo('title')?>">
+                    <img src="<?php echo get_field('logo','option')?>" class="img-fluid" alt="<?php echo bloginfo('title')?>">
                     <?php else:?>
                     <img src="<?php echo get_template_directory_uri()?>/images/logopri.png" class="img-fluid" alt="<?php echo bloginfo('title')?>">
                     <?php endif;?>

@@ -1,0 +1,8 @@
+[06-Aug-2018 10:45:25 UTC] PHP Notice:  Undefined index: content_slider_line_first in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\functions.php on line 719
+[06-Aug-2018 10:45:25 UTC] PHP Notice:  Undefined index: content_slider_line_second in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\functions.php on line 720
+[06-Aug-2018 10:45:25 UTC] PHP Notice:  Undefined index: content_slider_line_first in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\functions.php on line 719
+[06-Aug-2018 10:45:25 UTC] PHP Notice:  Undefined index: content_slider_line_second in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\functions.php on line 720
+[06-Aug-2018 11:18:56 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\front-page.php on line 37
+[06-Aug-2018 11:20:03 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\front-page.php on line 37
+[06-Aug-2018 11:20:27 UTC] PHP Notice:  Trying to get property 'url' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\front-page.php on line 37
+[07-Aug-2018 02:43:10 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in D:\xampp\htdocs\comma\solid\wp-includes\update.php on line 347

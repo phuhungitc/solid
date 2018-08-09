@@ -37,7 +37,7 @@ get_header();
                                         <p>Mon - Fri: 8AM - 6PM</p>
                                         <p>Sat: 9AM - 4PM</p>
                                     </div>
-                                    <div class="col-sm-4" data-aos="fade-dow">
+                                    <div class="col-sm-4" data-aos="fade-down">
                                         <p><strong>Số điện thoại:</strong></p>
                                         <p>.+(08) 408 6314</p>
                                         <p>+84 0166 809 2362</p>
@@ -52,7 +52,7 @@ get_header();
                         </div>
                     </div>
                     <div class="map" data-aos="fade-up">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/map.png" alt="">
+                        <div id="map" style="width: 100%; height: 300px"></div>
                     </div>
                 </div>
             </div>
@@ -87,5 +87,7 @@ get_header();
         </div>
 
     </div>
+
+
 <?php
 get_footer();

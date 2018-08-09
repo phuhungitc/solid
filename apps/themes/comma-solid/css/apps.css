@@ -159,6 +159,9 @@ body {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
+  #header_site.none-fixed {
+    position: relative;
+    margin-bottom: -80px; }
 
 #content {
   margin-top: 80px; }
@@ -566,7 +569,7 @@ body {
     padding-top: 130px;
     padding-bottom: 30px;
     margin-bottom: 50px; }
-    .page-intro .box-second img {
+    .page-intro .box-second .hover05 figure {
       bottom: -60px;
       position: relative;
       z-index: 3; }
@@ -892,7 +895,9 @@ body {
           margin-bottom: 0; }
       .page_contact .box-first .box-inner .map {
         position: relative;
-        z-index: 1; }
+        z-index: 1;
+        border-radius: 10px;
+        overflow: hidden; }
         .page_contact .box-first .box-inner .map img {
           width: 100%; }
   .page_contact .box-second .form {
@@ -1012,5 +1017,37 @@ figure.effect-apollo:hover p {
     transition: .3s ease-in-out; }
   .hover05 figure:hover img {
     margin-left: 0; }
+
+figure.hover3d {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  perspective: 500px; }
+  figure.hover3d div {
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.25s; }
+  figure.hover3d:hover div {
+    transform: rotateX(-90deg); }
+  figure.hover3d span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #FDB813;
+    font-family: 'SFUFuturaBold',Arial;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center; }
+  figure.hover3d span:nth-child(1) {
+    color: #2B3784;
+    background: #FDB813;
+    border: 2px solid #FDB813;
+    transform: translate3d(0, 0, 15px); }
+  figure.hover3d span:nth-child(2) {
+    color: #2B3784;
+    background: transparent;
+    border: 2px solid #FDB813;
+    transform: rotateX(90deg) translate3d(0, 0, 15px); }
 
 /*# sourceMappingURL=apps.css.map */

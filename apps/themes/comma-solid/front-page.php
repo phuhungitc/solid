@@ -15,28 +15,9 @@
 get_header();
 ?>
     <div class="banner">
-        <div class="primaryslider owl-carousel owl-theme">
-            <div class="item_banner text-center">
-                <img src="<?php echo get_template_directory_uri()?>/images/bannerpri.jpg" class="img-fluid" alt="">
-                <div class="meta_info">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 308">
-                        <path id="Path_213" data-name="Path 213" class="cls-1" d="M247-171v-33.5H68v306H245.5v-140" transform="translate(-67 205.5)"/>
-                    </svg>
-                    <p>Chúng tôi tự hào về</p>
-                    <h3>Chất lượng</h3>
-                </div>
-            </div>
-            <div class="item_banner text-center">
-                <img src="<?php echo get_template_directory_uri()?>/images/bannerpri.jpg" class="img-fluid" alt="">
-                <div class="meta_info">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 308">
-                        <path id="Path_213" data-name="Path 213" class="cls-1" d="M247-171v-33.5H68v306H245.5v-140" transform="translate(-67 205.5)"/>
-                    </svg>
-                    <p>Chúng tôi tự hào về</p>
-                    <h3>Chất lượng</h3>
-                </div>
-            </div>
-        </div>
+    <?php if (get_field('slider_default', 'option') == true && get_field('shortcode_slider_homepage','option')):
+            echo do_shortcode(wp_trim_words(get_field('shortcode_slider_homepage','option')));
+    endif; ?>
     </div>
     <div class="intro">
         <div class="container">
@@ -44,7 +25,9 @@ get_header();
                 <div class="row justify-content-end">
                     <div class="col-sm-2"></div>
                     <div class="col-md-auto">
-                        <h3 data-aos="fade-right">WELCOME to SOLID</h3>
+                        <h3 data-aos="fade-right">
+                            <?php echo get_field('title_first')?>
+                        </h3>
                     </div>
                     <div class="col-sm-2"></div>
                 </div>
@@ -53,7 +36,7 @@ get_header();
                         <div class="row">
                             <div class="col-sm-2"></div>
                             <div class="col-sm-8"  data-aos="fade-left">
-                                <img src="<?php echo get_template_directory_uri()?>/images/welcome2x.png" class="img-fluid" alt="">
+                                <img src="<?php echo get_field('image_first')['url']?>" class="img-fluid" alt="<?php echo get_field('image_first')['alt']?>">
                             </div>
                             <div class="col-sm-2"></div>
                         </div>
@@ -62,30 +45,31 @@ get_header();
                         <div class="intro-right">
                             <div class="row">
                                 <div class="col-sm-6"  data-aos="fade-up">
-                                    <p>Lorem ipsum dolor sit amet, conseeaer adipiscing elit. Aenean commodo ligua eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dismoné, na ridiculus mus. Donec quam felis, ultries nec, pellentesque eu, pretium qs, sem. Nulla consequat mass quis enim. Nulla consequat massa quis enim.</p>
+                                    <p>
+                                        <?php echo get_field('right')['content_first']?>
+                                    </p>
                                 </div>
                                 <div class="col-sm-6" data-aos="fade-down">
-                                    <p>Lorem ipsum dolor sit amet, conseeaer adipiscing elit. Aenean commodo ligua eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dismoné, na ridiculus mus. Donec quam felis, ultries nec, pellentesque eu, pretium qs, sem. Nulla consequat mass quis enim. Nulla consequat massa quis enim.</p>
+                                    <p>
+                                        <?php echo get_field('right')['content_second']?>
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-                        <a href="" class="btn btn-light" data-aos="fade-up">Xem thêm</a>
+                        <a href="<?php echo get_field('right')['link']['url'] ?>" class="btn btn-light" data-aos="fade-up"><?php echo get_field('right')['link']['title'];?></a>
                     </div>
                 </div>
             </div>
         </div>
     </div> <!--intro-->
-    <div class="service">
+    <div class="service" <?php if(get_field('background_service')['url']!=""): echo 'style="background-image:url('.get_field('background_service')['url'].')"';endif;?>>
         <div class="container">
             <h3 class="text-right" data-aos="fade-right">
-                DỊCH VỤ
+               <?php echo get_field('title_service')?>
             </h3>
             <div class="meta_description text-right" data-aos="fade-right">
-                <p>Lorem ipsum dolor sit amet, conseeaer</p>
-                <p>adipiscing elit. Aenean commodo ligua</p>
-                <p>eget dolor. Aenean massa.</p>
-
+               <?php echo get_field('description_service')?>
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -152,13 +136,13 @@ get_header();
             </div>
         </div>
     </div><!--service-->
-    <div class="project">
+    <div class="project" <?php if(get_field('background_project')['url']!=""): echo 'style="background-image: url('.get_field('background_project')['url'].')"'; endif;?>>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-4">
-                    <h4 data-aos="flip-left"><span>DỰ ÁN
-                    <br>GẦN -
-                    <br>NHẤT</span></h4>
+                    <h4 data-aos="flip-left"><span>
+                            <?php echo get_field('title_project')?>
+                        </span></h4>
                     <div class="item_project" data-aos="fade-down">
                         <figure>
                             <img src="<?php echo get_template_directory_uri()?>/images/project1.png" class="img-fluid" alt="">
