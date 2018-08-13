@@ -11,38 +11,35 @@
 
 ?>
 
-<footer id="footer-site">
+<div id="footer-site">
     <div class="container">
-        <a href="" class="logo-footer" data-aos="fade-left">
-            <img src="<?php echo get_template_directory_uri()?>/images/logoft.png" class="img-fluid" alt="">
+        <a href="<?php echo site_url()?>" class="logo-footer" data-aos="fade-left">
+            <img src="<?php echo (get_field('logo_ft','option')!="")? get_field('logo_ft','option') : get_template_directory_uri().'/images/logoft.png'?>" class="img-fluid" alt="">
         </a>
         <div class="row">
             <div class="col-sm-8">
                 <div class="row">
                     <div class="col-sm-3" data-aos="fade-up">
-                        <p>305 Lê Văn Sỹ,
-                            Tân Bình, tp.HCM</p>
+                        <p><?php echo get_field('address','option')?></p>
                     </div>
                     <div class="col-sm-3" data-aos="fade-up">
-                        <p>Solid@gmail.com</p>
+                        <p><?php echo get_field('email','option')?></p>
                     </div>
-                    <div class="col-sm-3" data-aos="fade-up">
-                        <p>+(08) 408 6314</p>
-                        <p>+84 0166 809 2362</p>
+                    <div class="col-sm-3 col-6" data-aos="fade-up">
+                        <p><?php echo get_field('phone_ft','option')?></p>
                     </div>
-                    <div class="col-sm-3" data-aos="fade-up">
-                        <p>Mon - Fri: 8AM - 6PM</p>
-                        <p>Sat: 9AM - 4PM</p>
+                    <div class="col-sm-3 col-6" data-aos="fade-up">
+                        <p><?php echo get_field('open_hours','option')?></p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2" data-aos="fade-left">
+            <div class="col-sm-2 col-6" data-aos="fade-left">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href=""><img src="<?php echo get_template_directory_uri()?>/images/facebook.png" class="img-fluid" alt=""></a></li>
-                    <li class="list-inline-item"><a href=""><img src="<?php echo get_template_directory_uri()?>/images/skype.png" class="img-fluid" alt=""></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="<?php echo get_field('facebook_url','option')?>"><img src="<?php echo get_template_directory_uri()?>/images/facebook.png" class="img-fluid" alt=""></a></li>
+                    <li class="list-inline-item"><a href="skype:<?php echo get_field('skype','option')?>?chat"><img src="<?php echo get_template_directory_uri()?>/images/skype.png" class="img-fluid" alt=""></a></li>
                 </ul>
             </div>
-            <div class="col-sm-2 text-right" data-aos="fade-right">
+            <div class="col-sm-2  col-6 text-right" data-aos="fade-right">
                 <?php if(function_exists('get_field')&&get_field('scroll_on_top','option')==true):?>
                 <div id="goTop">
                     <?php if (get_field('image_for_scroll_on_top', 'option')):?>
@@ -55,13 +52,14 @@
             </div>
         </div>
         <div class="copyright">
-            Solid Decor & interior, all rights reserved
+           <?php echo get_field('copyright','option')?>
         </div>
         <div class="design-by">
-            Designed by Comma
+            Designed by <a href="http://commamedia.vn" target="_blank" title="Comma Media">Comma</a>
         </div>
     </div>
 </footer>
+</div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7cMS6OiPABZtUyEwn0xbKF1hkfH0NZB0"></script>
 <?php wp_footer(); ?>
 

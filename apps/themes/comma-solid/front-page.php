@@ -57,7 +57,7 @@ get_header();
                             </div>
                         </div>
 
-                        <a href="<?php echo get_field('right')['link']['url'] ?>" class="btn btn-light" data-aos="fade-up"><?php echo get_field('right')['link']['title'];?></a>
+                        <a href="<?php echo get_field('right')['link']['url'] ?>" class="btn btn-light" data-aos="fade-up"><?php echo __('Xem thêm','comma-solid');?></a>
                     </div>
                 </div>
             </div>
@@ -71,68 +71,36 @@ get_header();
             <div class="meta_description text-right" data-aos="fade-right">
                <?php echo get_field('description_service')?>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="item_service" data-aos="fade-up">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service1.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">THIẾT KẾ VÀ
-                                <br>THI CÔNG NỘI THẤT</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="200">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service2.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">THIẾT KẾ & SẢN
-                                <br>XUẤT QUẢNG CÁO</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="400">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service3.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">THIẾT KẾ & CHẾ TẠO
-                                <br>CƠ KHÍ</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="row justify-content-center">
-                <div class="col-sm-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="300">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service4.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
+                <?php
+                $service = array(
+                    'posts_per_page'   => 5,
+                    'post_type'        => 'service',
+                    'post_status'      => 'publish',
+                );
+                $allservice = new WP_Query($service);
+                $j=0;
+                if($allservice->have_posts()): while ($allservice->have_posts()): $allservice->the_post();
+                if($j==3){
+                    $j=0;
+                }
+                ?>
+                <div class="col-md-4">
+                    <div class="item_service" data-aos="fade-up" data-aos-delay="<?php echo 200+$j*200?>">
+                        <a href="<?php the_permalink()?>" title="<?php the_title()?>">
+                            <figure class="effect-apollo">
+                                <?php the_post_thumbnail('thumbnail',array('class'=>'img-fluid'))?>
+                                <figcaption></figcaption>
+                            </figure>
+                        </a>
+
                         <div class="title_service">
-                            <a href="">GIA CÔNG VẬT LIỆU</a>
+                            <a href="<?php the_permalink()?>" title="<?php the_title()?>"><?php the_title()?></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="600">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service5.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">THIẾT KẾ & CHẾ TẠO
-                                <br>SP CHUYÊN BIỆT</a>
-                        </div>
-                    </div>
-                </div>
+                <?php $j++; endwhile; endif; wp_reset_postdata()?>
+
             </div>
         </div>
     </div><!--service-->
@@ -143,56 +111,36 @@ get_header();
                     <h4 data-aos="flip-left"><span>
                             <?php echo get_field('title_project')?>
                         </span></h4>
-                    <div class="item_project" data-aos="fade-down">
+                    <?php
+                    $project = array(
+                        'posts_per_page'   => 3,
+                        'post_type'        => 'project',
+                        'post_status'      => 'publish',
+                    );
+                    $allproject = new WP_Query($project);
+                    $i=1;
+                    if($allproject->have_posts()): while ($allproject->have_posts()): $allproject->the_post();
+                    if($i==2){
+                        echo '</div><div class="col-sm-4">';
+                    }
+                    ?>
+                    <div class="item_project <?php echo ($i==2)? 'margin-large' : '';?>" data-aos="fade-down">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri()?>/images/project1.png" class="img-fluid" alt="">
+                           <?php the_post_thumbnail('thumbnail-custom',array('class'=>'img-fluid'))?>
                             <figcaption>
                                 <div class="detail">
-                                    <a href="">Chi tiết</a>
+                                    <a href="<?php the_permalink()?>"><?php _e('Chi tiết','comma-solid')?></a>
                                 </div>
                             </figcaption>
                         </figure>
                         <div class="title_service">
-                            <a href="">LUXURY BAR</a>
+                            <a href="<?php the_permalink()?>"><?php the_title()?></a>
                             <div class="position">
-                                Quận Bình Thạnh
+                                <?php echo get_field('location')?>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="item_project margin-large" data-aos="fade-up">
-                        <figure>
-                            <img src="<?php echo get_template_directory_uri()?>/images/project2.png" class="img-fluid" alt="">
-                            <figcaption>
-                                <div class="detail">
-                                    <a href="">Chi tiết</a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">LUXURY BAR</a>
-                            <div class="position">
-                                Quận Bình Thạnh
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item_project" data-aos="fade-up">
-                        <figure>
-                            <img src="<?php echo get_template_directory_uri()?>/images/project3.png" class="img-fluid" alt="">
-                            <figcaption>
-                                <div class="detail">
-                                    <a href="">Chi tiết</a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">LUXURY BAR</a>
-                            <div class="position">
-                                Quận Bình Thạnh
-                            </div>
-                        </div>
-                    </div>
+                    <?php $i++; endwhile; endif; wp_reset_postdata()?>
                 </div>
             </div>
         </div>

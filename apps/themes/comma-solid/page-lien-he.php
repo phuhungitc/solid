@@ -52,7 +52,7 @@ get_header();
                         </div>
                     </div>
                     <div class="map" data-aos="fade-up">
-                        <div id="map" style="width: 100%; height: 300px"></div>
+                        <div id="map" style="width: 100%; height: 300px" data-latlong="<?php echo get_field('maps')['latitude'].'|'.get_field('maps')['longitude']?>" data-winfo="<?php echo get_field('content_map')?>"></div>
                     </div>
                 </div>
             </div>
@@ -61,23 +61,11 @@ get_header();
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-9">
-                        <p class="text-center" data-aos="fade-left">Chân thành cám ơn Quý khách hàng đã ghé thăm SOLID. Chúng tôi quan tâm
-                            đến <br>
-                            yêu cầu và ý kiến đóng góp của Quý khách. <br>
-                            Xin vui lòng để lại thông tin để chúng tôi phục vụ Quý khách tốt hơn mỗi ngày.</p>
-                        <div class="form">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <input type="text" data-aos="fade-left" class="form-control" placeholder="Họ & Tên">
-                                    <input type="text" data-aos="fade-left" class="form-control" placeholder="SĐT">
-                                    <input type="text" data-aos="fade-left" class="form-control" placeholder="Email">
-                                </div>
-                                <div class="col-sm-6">
-                                    <textarea name="" class="form-control" id="" cols="30" rows="4"
-                                              placeholder="Nội dung"  data-aos="fade-right"></textarea>
-                                    <input type="submit" class="btn btn-light" value="Gửi" data-aos="fade-right">
-                                </div>
-                            </div>
+                        <p class="text-center" data-aos="fade-left">
+                            <?php echo get_field('content_thanks')?>
+                        </p>
+                        <div class="form" data-aos="fade-down">
+                            <?php echo do_shortcode(get_field('shorcode_form'))?>
                         </div>
                     </div>
                 </div>

@@ -238,7 +238,7 @@ function add_theme_scripts()
     wp_enqueue_script('carousel', get_template_directory_uri() . '/js/owl.carousel.min.js', array('jquery'), 1.1, true);
     wp_enqueue_script('aos', get_template_directory_uri() . '/js/aos.js', array('jquery'), 1.1, true);
     wp_enqueue_script('drawsvg', get_template_directory_uri() . '/js/jquery.drawsvg.js', array('jquery'), 1.1, true);
-    wp_enqueue_script('apps', get_template_directory_uri() . '/js/apps.js', array('jquery'), 1.5, true);
+    wp_enqueue_script('apps', get_template_directory_uri() . '/js/apps.js', array('jquery'), 1.6, true);
 }
 
 add_action('wp_enqueue_scripts', 'add_theme_scripts', 999);
@@ -759,3 +759,14 @@ function custom_slider_column($column, $post_id)
 
     }
 }
+
+function paulund_remove_default_image_sizes( $sizes) {
+    unset( $sizes['medium']);
+    unset( $sizes['large']);
+    unset( $sizes['medium_large']); // 768px
+    return $sizes;
+}
+add_filter('intermediate_image_sizes_advanced', 'paulund_remove_default_image_sizes');
+
+add_image_size( 'square', 350, 350, true );
+add_image_size( 'thumbnail-custom', 350, 200, true );

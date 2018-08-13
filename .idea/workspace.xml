@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8391ed11-76cd-4a29-bb38-a255e169ebcf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/_inc/akismet.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/_inc/akismet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/_inc/akismet.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/_inc/akismet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/akismet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/class.akismet-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/class.akismet-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/class.akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/class.akismet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/views/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/views/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/plugins/akismet/views/notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/plugins/akismet/views/notice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/comma_solid.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DB/comma_solid.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/apps/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/css/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/css/_variable.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.scss" afterDir="false" />
@@ -18,115 +15,172 @@
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/A-Guide-To-Creating-Great-Billboards- (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/A-Guide-To-Creating-Great-Billboards- (1)@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/intro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/intro_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/intro_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/intro_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/intro_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/project1.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/project1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/project2.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/project2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/project3.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/project3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service1.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service2.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service3.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service4.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service5.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/service_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/images/welcome2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/images/welcome2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/js/apps.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/js/apps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/page-gioi-thieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/page-gioi-thieu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/page-dich-vu.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/page-dich-vu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/page-lien-he.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/page-lien-he.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/admin-ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/admin-ajax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/common.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/common.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/dashboard-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/dashboard-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/dashboard-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/dashboard-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/css/dashboard.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/css/dashboard.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/edit-form-comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/edit-form-comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/admin-filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/admin-filters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/ajax-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/ajax-actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-community-events.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-community-events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-screen.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-screen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/continents-cities.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/continents-cities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/file.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/file.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/misc.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/misc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/schema.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/dashboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/dashboard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/updates.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/updates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/js/updates.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/js/updates.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/options-discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/options-discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/plugins.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/plugins.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-admin/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/privacy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/capabilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/capabilities.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-wp-editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-term-query.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/class-wp-term-query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/comment-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/comment-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/default-filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/default-filters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/formatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/general-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/general-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/colorpicker/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/colorpicker/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/directionality/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/directionality/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/hr/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/hr/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/link/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/link/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/tabfocus/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/tabfocus/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/tabfocus/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/wordpress/wp-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/wordpress/wp-content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/twemoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/twemoji.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/twemoji.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/twemoji.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-release.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-release.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/link-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/link-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/taxonomy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/version.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/widgets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/themes/comma-solid/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/themes/comma-solid/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/.idea/html.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/_variable.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/apps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/apps.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/briefstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/custom.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/JosefinSans-SemiBold.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/JosefinSans-SemiBold/JosefinSans-SemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/JosefinSans-SemiBold/JosefinSans-SemiBold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/JosefinSans-SemiBold/JosefinSans-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/JosefinSans-SemiBold/JosefinSans-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/JosefinSans-SemiBold/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/JosefinSans-SemiBold/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBold.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBold/SFUFuturaBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBold/SFUFuturaBold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBold/SFUFuturaBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBold/SFUFuturaBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBold/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBold/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBook.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBook/SFUFuturaBook.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBook/SFUFuturaBook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBook/SFUFuturaBook.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBook/SFUFuturaBook.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBook/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaBook/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaExtraBold.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaExtraBold/SFUFuturaExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaExtraBold/SFUFuturaExtraBold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaExtraBold/SFUFuturaExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaExtraBold/SFUFuturaExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaExtraBold/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaExtraBold/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaHeavy.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaHeavy/SFUFuturaHeavy.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaHeavy/SFUFuturaHeavy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaHeavy/SFUFuturaHeavy.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaHeavy/SFUFuturaHeavy.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaHeavy/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaHeavy/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaOblique.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaOblique/SFUFuturaOblique.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaOblique/SFUFuturaOblique.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaOblique/SFUFuturaOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaOblique/SFUFuturaOblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaOblique/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/SFUFuturaOblique/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/7076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/A-Guide-To-Creating-Great-Billboards- (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/A-Guide-To-Creating-Great-Billboards- (1)@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Dbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Group 36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Mask Group 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Mask Group 5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Mask Group 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Mask Group 7@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Path 209@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Path 213.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Pictures-0732-compressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Pictures-0732-compressed@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Rectangle 154@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Rectangle 468@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Repeat Grid 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Subtraction 1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Subtraction 2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Untitled-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/Untitled-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/abyss-pub-bar-decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/abyss-pub-bar-decor@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/bannerpri.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/bannerpri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/bgproject.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/border.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/contracr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/contracr@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/email@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/gotop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/home-bar-decor-ideas-design_185798-compressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/home-bar-decor-ideas-design_185798-compressed@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/icon noi that.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/icon noi that@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/image@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/lamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/lamp@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/logo_intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/logoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/logopri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/logoxanh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/project1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/project2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/project3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/service1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/service2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/service3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/service4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/service5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/service_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/servicebg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/skype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/teaserbox_2415394156.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/teaserbox_2415394156@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/thiet-ke-quay-bar-cho-quan-cafe1-755560j12208-compressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/thiet-ke-quay-bar-cho-quan-cafe1-755560j12208-compressed@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/images/welcome2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/apps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/jquery.drawsvg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -137,41 +191,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="722" column="28" selection-start-line="722" selection-start-column="28" selection-end-line="722" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="285">
+              <caret line="38" column="124" selection-start-line="38" selection-start-column="124" selection-end-line="38" selection-end-column="124" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/404.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/apps.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="1105" column="25" selection-start-line="1105" selection-start-column="25" selection-end-line="1105" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="1556" column="16" selection-start-line="1556" selection-start-column="16" selection-end-line="1556" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-lien-he.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-lien-he.php">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-              <folding>
-                <element signature="e#2557#2591#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="12" column="57" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="75" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="771" column="33" selection-start-line="771" selection-start-column="17" selection-end-line="771" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -181,46 +250,30 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/front-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-gioi-thieu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-gioi-thieu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2427">
-              <caret line="144" column="84" selection-start-line="144" selection-start-column="84" selection-end-line="144" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="64" column="97" selection-start-line="64" selection-start-column="97" selection-end-line="64" selection-end-column="97" />
+            <state relative-caret-position="119">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-dich-vu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-dich-vu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="109" column="83" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/js/apps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            <state relative-caret-position="186">
+              <caret line="107" column="61" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2976" />
           </provider>
         </entry>
       </file>
@@ -241,6 +294,16 @@
       <find>page-intro</find>
       <find>slide</find>
       <find>fixed{</find>
+      <find>map</find>
+      <find>title_sẻ</find>
+      <find>.title_service</find>
+      <find>content-flex</find>
+      <find>.project</find>
+      <find>404</find>
+      <find>keyframes</find>
+      <find>item_service</find>
+      <find>service</find>
+      <find>form-cont</find>
     </findStrings>
     <replaceStrings>
       <replace>Comma Solid</replace>
@@ -258,19 +321,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/apps/themes/comma-solid-child/style.css" />
-        <option value="$PROJECT_DIR$/apps/themes/comma-solid/css/_variable.scss" />
-        <option value="$PROJECT_DIR$/apps/themes/comma-solid/page-dich-vu.php" />
         <option value="$PROJECT_DIR$/apps/themes/comma-solid/page_test.php" />
-        <option value="$PROJECT_DIR$/apps/themes/comma-solid/functions.php" />
-        <option value="$PROJECT_DIR$/apps/themes/comma-solid/front-page.php" />
         <option value="$PROJECT_DIR$/apps/themes/comma-solid/page-gioi-thieu.php" />
-        <option value="$PROJECT_DIR$/apps/themes/comma-solid/header.php" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/css/_variable.scss" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/apps/themes/comma-solid/page-lien-he.php" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/front-page.php" />
         <option value="$PROJECT_DIR$/apps/themes/comma-solid/footer.php" />
-        <option value="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.scss" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/functions.php" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/page-dich-vu.php" />
         <option value="$PROJECT_DIR$/apps/themes/comma-solid/js/apps.js" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/header.php" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/404.php" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/search.php" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/archive.php" />
+        <option value="$PROJECT_DIR$/apps/themes/comma-solid/css/apps.scss" />
       </list>
     </option>
   </component>
@@ -324,30 +390,6 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="comma-solid" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="solid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solid" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="comma-solid" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solid" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="comma-solid" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solid" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="comma-solid" type="462c0819:PsiDirectoryNode" />
-              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -389,14 +431,20 @@
       <workItem from="1533548473731" duration="7209000" />
       <workItem from="1533609251048" duration="1428000" />
       <workItem from="1533715310739" duration="10104000" />
+      <workItem from="1533782029146" duration="649000" />
+      <workItem from="1533799366992" duration="13348000" />
+      <workItem from="1533871497591" duration="13793000" />
+      <workItem from="1534053283274" duration="8670000" />
+      <workItem from="1534127689181" duration="11689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54571000" />
+    <option name="totallyTimeSpent" value="102720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -426,27 +474,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/_variable.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="153" column="24" selection-start-line="78" selection-start-column="4" selection-end-line="153" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/js/apps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -645,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="111" column="37" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -666,20 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/_variable.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-dich-vu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="151" column="67" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page_test.php" />
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-fullwidth.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -691,70 +697,107 @@
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid-child/functions.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-gioi-thieu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2427">
+        <state relative-caret-position="2448">
           <caret line="144" column="84" selection-start-line="144" selection-start-column="84" selection-end-line="144" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2976" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/apps.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/functions.php">
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/_variable.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="722" column="28" selection-start-line="722" selection-start-column="28" selection-end-line="722" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="64" column="97" selection-start-line="64" selection-start-column="97" selection-end-line="64" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/apps.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="1105" column="25" selection-start-line="1105" selection-start-column="25" selection-end-line="1105" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-lien-he.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding>
-            <element signature="e#2557#2591#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="1122">
+          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/apps.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="124" selection-start-line="38" selection-start-column="124" selection-end-line="38" selection-end-column="124" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/js/apps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        <state relative-caret-position="186">
+          <caret line="107" column="61" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="771" column="33" selection-start-line="771" selection-start-column="17" selection-end-line="771" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/page-dich-vu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="109" column="83" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/themes/comma-solid/css/apps.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="1556" column="16" selection-start-line="1556" selection-start-column="16" selection-end-line="1556" selection-end-column="16" />
         </state>
       </provider>
     </entry>

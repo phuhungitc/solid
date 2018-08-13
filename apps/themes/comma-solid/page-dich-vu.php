@@ -23,22 +23,22 @@ get_header();
                                 <p data-aos="fade-left">Lorem ipsum dolor sit amet, conseeaer adipiscing elit. Aenean commodo ligua eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dismoné, na ridiculus mus. Donec quam felis, ultries nec.</p>
                                 <div class="list_service" data-aos="fade-left">
                                     <div class="row">
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-4 col-6">
                                             <p>Bar</p>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-4 col-6">
                                             <p>Nhà phố</p>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-4 col-6">
                                             <p>Cafe</p>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-4 col-6">
                                             <p>LOUNGE</p>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-4 col-6">
                                             <p>CĂN HỘ</p>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-4 col-6">
                                             <p>VĂN PHÒNG</p>
                                         </div>
                                     </div>
@@ -65,84 +65,68 @@ get_header();
                 <div class="col-sm-9">
                     <nav data-aos="fade-left">
                         <div class="nav justify-content-center" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link active" id="nav-first-tab" data-toggle="tab" href="#nav-first" role="tab" aria-controls="nav-first" aria-selected="true">BAR</a>
-                            <a class="nav-item nav-link" id="nav-second-tab" data-toggle="tab" href="#nav-second" role="tab" aria-controls="nav-second" aria-selected="false">NHÀ PHỐ</a>
-                            <a class="nav-item nav-link" id="nav-third-tab" data-toggle="tab" href="#nav-third" role="tab" aria-controls="nav-third" aria-selected="false">CAFÉ</a>
-                            <a class="nav-item nav-link" id="nav-fourth-tab" data-toggle="tab" href="#nav-fourth" role="tab" aria-controls="nav-fourth" aria-selected="false">LOUNGE</a>
-                            <a class="nav-item nav-link" id="nav-fifth-tab" data-toggle="tab" href="#nav-fifth" role="tab" aria-controls="nav-fifth" aria-selected="false">CĂN HỘ</a>
-                            <a class="nav-item nav-link" id="nav-sixth-tab" data-toggle="tab" href="#nav-sixth" role="tab" aria-controls="nav-sixth" aria-selected="false">VĂN PHÒNG</a>
+                            <?php
+                            $terms = get_terms([
+                                'taxonomy' => 'project-type',
+                                'hide_empty' => false,
+                                'parent' => 0
+                            ]);
+                            $k = 0;
+                            foreach ($terms as $t):
+                                ?>
+                            <a class="nav-item nav-link <?php echo ($k==0)? 'active': ''?>" id="nav-<?php echo $t->slug?>-tab" data-toggle="tab" href="#nav-<?php echo $t->slug?>" role="tab" aria-controls="nav-<?php echo $t->slug?>" aria-selected="true"><?php echo $t->name?></a>
+                            <?php $k++; endforeach;?>
                         </div>
                     </nav>
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-first" role="tabpanel" aria-labelledby="nav-first-tab">
+                        <?php
+                        $terms_c = get_terms([
+                            'taxonomy' => 'project-type',
+                            'hide_empty' => false,
+                            'parent' => 0
+                        ]);
+                        $o = 0;
+                        foreach ($terms_c as $a):
+                            ?>
+                        <div class="tab-pane fade show <?php echo ($o==0)? 'active': ''?>" id="nav-<?php echo $a->slug?>" role="tabpanel" aria-labelledby="nav-<?php echo $a->slug?>-tab">
                             <div class="row">
+                                <?php
+                                    $project = array(
+                                        'posts_per_page'   => -1,
+                                        'post_type'        => 'project',
+                                        'post_status'      => 'publish',
+                                        'tax_query' => array(
+                                            array(
+                                                'taxonomy' => 'project-type',
+                                                'field' => 'term_id',
+                                                'terms' => $a->term_id,
+                                            )
+                                        )
+                                    );
+                                    $allproject = new WP_Query($project);
+                                    if($allproject->have_posts()):while ($allproject->have_posts()):$allproject->the_post();
+                                ?>
                                 <div class="col-sm-4">
-                                    <figure data-aos="fade-down" data-aos-delay="200">
-                                        <img src="<?php echo get_template_directory_uri()?>/images/service_01.png" class="img-fluid" alt="">
+                                    <figure data-aos="fade-up" data-aos-delay="200">
+                                        <?php the_post_thumbnail('square',array('class'=>'img-fluid'))?>
                                         <div class="meta_item">
-                                            <a href="">LUXURY BAR</a>
+                                            <a href="<?php the_permalink()?>"><?php the_title()?></a>
                                         </div>
                                     </figure>
                                 </div>
-                                <div class="col-sm-4">
-                                    <figure data-aos="fade-down" data-aos-delay="500">
-                                        <img src="<?php echo get_template_directory_uri()?>/images/service_02.png" class="img-fluid" alt="">
-                                        <div class="meta_item">
-                                            <a href="">LUXURY BAR</a>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-4">
-                                    <figure data-aos="fade-down" data-aos-delay="800">
-                                        <img src="<?php echo get_template_directory_uri()?>/images/service_03.png" class="img-fluid" alt="">
-                                        <div class="meta_item">
-                                            <a href="">LUXURY BAR</a>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-4">
-                                    <figure data-aos="fade-down" data-aos-delay="200">
-                                        <img src="<?php echo get_template_directory_uri()?>/images/service_04.png" class="img-fluid" alt="">
-                                        <div class="meta_item">
-                                            <a href="">LUXURY BAR</a>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-4">
-                                    <figure data-aos="fade-down" data-aos-delay="500">
-                                        <img src="<?php echo get_template_directory_uri()?>/images/service_05.png" class="img-fluid" alt="">
-                                        <div class="meta_item">
-                                            <a href="">LUXURY BAR</a>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-4">
-                                    <figure data-aos="fade-down" data-aos-delay="800">
-                                        <img src="<?php echo get_template_directory_uri()?>/images/service_06.png" class="img-fluid" alt="">
-                                        <div class="meta_item">
-                                            <a href="">LUXURY BAR</a>
-                                        </div>
-                                    </figure>
-                                </div>
+                                <?php
+                                    endwhile;
+                                    else:
+                                        echo '<div class="col-sm-12"> <div class="alert alert-secondary" role="alert"> Dự án '.$a->name.' đang được cập nhật</div></div>';
+                                    endif; wp_reset_postdata();
+                                ?>
                             </div>
+                        </div>
 
-                        </div>
-                        <div class="tab-pane fade" id="nav-second" role="tabpanel" aria-labelledby="nav-second-tab">
-                            Nội dung tab Nhà Phố
-                        </div>
-                        <div class="tab-pane fade" id="nav-third" role="tabpanel" aria-labelledby="nav-third-tab">
-                            Nội dung tab Cafe
-                        </div>
-                        <div class="tab-pane fade" id="nav-fourth" role="tabpanel" aria-labelledby="nav-fourth-tab">
-                            Nội dung tab Lounge
-                        </div>
-                        <div class="tab-pane fade" id="nav-fifth" role="tabpanel" aria-labelledby="nav-fifth-tab">
-                            Nội dung tab Căn Hộ
-                        </div>
-                        <div class="tab-pane fade" id="nav-sixth" role="tabpanel" aria-labelledby="nav-sixth-tab">
-                            Nội dung tab Văn Phòng
-                        </div>
+                        <?php $o++; endforeach;?>
+
                     </div>
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
@@ -154,55 +138,37 @@ get_header();
             </h3>
 
             <div class="row justify-content-center">
+                <?php
+                $service = array(
+                    'posts_per_page'   => 4,
+                    'post_type'        => 'service',
+                    'post_status'      => 'publish',
+                    'orderby'   => 'rand',
+                );
+                $allservice = new WP_Query($service);
+                $i= $j = 0;
+                if($allservice->have_posts()): while ($allservice->have_posts()): $allservice->the_post();
+                if($i==2){
+                    echo '</div><div class="row justify-content-center">';
+                }
+                if($j==2){
+                    $j=0;
+                }
+                ?>
                 <div class="col-md-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="200">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service2.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
+                    <div class="item_service" data-aos="fade-up" data-aos-delay="<?php echo 200+$j*300?>">
+                        <a href="<?php the_permalink()?>">
+                            <figure class="effect-apollo">
+                                <?php the_post_thumbnail('thumbnail',array('class'=>'img-fluid'))?>
+                                <figcaption></figcaption>
+                            </figure>
+                        </a>
                         <div class="title_service">
-                            <a href="">THIẾT KẾ & SẢN
-                                <br>XUẤT QUẢNG CÁO</a>
+                            <a href="<?php the_permalink()?>"><?php the_title()?></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="400">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service3.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">THIẾT KẾ & CHẾ TẠO
-                                <br>CƠ KHÍ</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-sm-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="300">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service4.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">GIA CÔNG VẬT LIỆU</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="item_service" data-aos="fade-up" data-aos-delay="600">
-                        <figure class="effect-apollo">
-                            <img src="<?php echo get_template_directory_uri()?>/images/service5.png" class="img-fluid" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                        <div class="title_service">
-                            <a href="">THIẾT KẾ & CHẾ TẠO
-                                <br>SP CHUYÊN BIỆT</a>
-                        </div>
-                    </div>
-                </div>
+                <?php $i++; $j++; endwhile; endif; wp_reset_postdata()?>
             </div>
         </div>
     </div>

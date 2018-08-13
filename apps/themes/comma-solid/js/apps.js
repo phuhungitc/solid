@@ -55,30 +55,74 @@ Apps = {
     mapcontact: function () {
         if(jQuery('#map').length){
             var map;
-            var uluru = {lat: 10.787389, lng: 106.678429};
+            var uluru = jQuery('#map').data('latlong').split('|');
+            var $center = {lat: uluru[0]*1,lng: uluru[1]*1};
+            var wininfo = jQuery('#map').data('winfo');
+            console.log($center);
             map = new google.maps.Map(document.getElementById('map'), {
-                center: uluru,
+                center: $center,
                 zoom: 15
             });
-            var contentString = "Test";
+            var contentString = wininfo;
             var infowindow = new google.maps.InfoWindow({
                 content: contentString
             });
 
-            var marker = new google.maps.Marker({position: uluru, map: map,title: 'Title'});
+            var marker = new google.maps.Marker({position: $center, map: map,title: 'Title'});
             marker.addListener('click', function() {
                 infowindow.open(map, marker);
             });
+            infowindow.open(map, marker);
 
 
         }
+    },
+    menumobile: function(){
+        if(jQuery('#menumobile.menu-arrow').length){
+            jQuery('#menumobile.menu-arrow').each(function(){
+                jQuery(this).toggle(function(){
+                        jQuery('.menumobile').attr('style','transform:translate3d(-200px,0,0);-webkit-transform:translate3d(-200px,0,0); transition: transform 0.5s ease');
+                        jQuery(this).find('i').removeClass('fa-bars');
+                        jQuery(this).find('i').addClass('fa-times');
+                    },
+                    function(){
+                        jQuery('.menumobile').attr('style','transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);transition: transform 0.5s ease');
+                        jQuery(this).find('i').removeClass('fa-times');
+                        jQuery(this).find('i').addClass('fa-bars');
+                    });
+            });
+        }
+    },
+    onchangetab: function(){
+        if(jQuery('#nav-tab > a').length){
+            jQuery('#nav-tab > a').each(function(){
+               jQuery(this).on('click',function () {
+                   setTimeout(function () {
+                       AOS.refresh();
+                   },1000);
+               });
+            });
+        }
+    },
+    searchpop: function(){
+        jQuery('.search_click').on('click', function(event) {
+            jQuery('#search').addClass('open');
+            jQuery('#search > form > input[type="search"]').focus();
+        });
+        jQuery('#search, #search button.close').on('click keyup', function(event) {
+            if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
+                jQuery(this).removeClass('open');
+            }
+        });
     }
 
 };
 jQuery(document).ready(function(){
+    Apps.menumobile();
     Apps.scrollfixed();
     Apps.drawsvgfunc();
     Apps.slider();
+    Apps.searchpop();
     Apps.scrolltop();
     Apps.mapcontact();
     AOS.init({
@@ -89,4 +133,5 @@ jQuery(document).ready(function(){
             var maxWidth = 768;
             return window.innerWidth < maxWidth;
         }});
+    Apps.onchangetab();
 });
