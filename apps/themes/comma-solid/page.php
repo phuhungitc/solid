@@ -16,19 +16,26 @@ get_header();
 wp_breadcrumbs();
 ?>
     <div class="container">
-        <div id="primary" class="content-area">
+        <div id="primary" class="content-area page_content">
             <main id="main" class="site-main">
                 <?php
                 while (have_posts()) :
                     the_post();
-
-                    get_template_part('template-parts/content', 'page');
-
-                    // If comments are open or we have at least one comment, load up the comment template.
-                    if (comments_open() || get_comments_number()) :
-                        comments_template();
-                    endif;
-
+                ?>
+                <div class="row">
+                    <div class="col-sm-4 order-sm-last">
+                        <figure class="thumbnail_page">
+                            <?php the_post_thumbnail()?>
+                        </figure>
+                    </div>
+                    <div class="col-sm-8 order-sm-first">
+                        <h1 class="title_page"><?php the_title()?></h1>
+                        <div class="content_page_inner">
+                            <?php the_content();?>
+                        </div>
+                    </div>
+                </div>
+                <?php
                 endwhile; // End of the loop.
                 ?>
 

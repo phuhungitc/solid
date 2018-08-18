@@ -54,9 +54,13 @@ get_header();
                 wp_pagenavi();
 
             else :
-
+                ?>
+            <section class="error-404 not-found">
+<?php
                 get_template_part( 'template-parts/content', 'none' );
-
+?>
+            </section>
+                <?php
             endif;
             ?>
 

@@ -11,7 +11,7 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'comma-solid' ); ?></h1>
+		<h1 class="title_page"><span><?php esc_html_e( 'Nothing Found', 'comma-solid' ); ?></span></h1>
 	</header><!-- .page-header -->
 
 	<div class="page-content">

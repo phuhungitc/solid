@@ -2,46 +2,27 @@
 /**
  * Created by PhpStorm.
  * User: ARIES HAI AU
- * Date: 03/08/2018
- * Time: 15:22 PM
- * Template Name: Dich Vu Template
+ * Date: 17/08/2018
+ * Time: 13:52 PM
  */
 get_header();
 ?>
 <div class="page-service">
     <div class="box-first">
         <div class="container">
+            <?php while(have_posts()):the_post();?>
             <div class="box-inner">
                 <div class="row">
                     <div class="col-sm-8">
-                        <h1 data-aos="fade-left">
-                            Thiết kế &<br>
-                            Thi công nội thất
-                        </h1>
                         <div class="row">
+                            <div class="col-sm-9">
+                                <h1 data-aos="fade-left">
+                                    <?php the_title()?>
+                                </h1>
+                            </div>
                             <div class="col-sm-6">
-                                <p data-aos="fade-left">Lorem ipsum dolor sit amet, conseeaer adipiscing elit. Aenean commodo ligua eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dismoné, na ridiculus mus. Donec quam felis, ultries nec.</p>
-                                <div class="list_service" data-aos="fade-left">
-                                    <div class="row">
-                                        <div class="col-sm-4 col-6">
-                                            <p>Bar</p>
-                                        </div>
-                                        <div class="col-sm-4 col-6">
-                                            <p>Nhà phố</p>
-                                        </div>
-                                        <div class="col-sm-4 col-6">
-                                            <p>Cafe</p>
-                                        </div>
-                                        <div class="col-sm-4 col-6">
-                                            <p>LOUNGE</p>
-                                        </div>
-                                        <div class="col-sm-4 col-6">
-                                            <p>CĂN HỘ</p>
-                                        </div>
-                                        <div class="col-sm-4 col-6">
-                                            <p>VĂN PHÒNG</p>
-                                        </div>
-                                    </div>
+                                <div data-aos="fade-left">
+                                    <?php the_content();?>
                                 </div>
 
                             </div>
@@ -54,12 +35,13 @@ get_header();
                     </div>
                 </div>
             </div>
+        <?php endwhile; wp_reset_postdata();?>
         </div>
     </div><!--box-first-->
     <div class="box-second">
         <div class="container">
             <h3 class="title_page text-center" data-aos="fade-down">
-                Các dự án đã thực hiện
+                <?php _e('Các dự án đã thực hiện','comma-solid')?>
             </h3>
             <div class="row justify-content-center">
                 <div class="col-sm-9">
@@ -91,6 +73,7 @@ get_header();
                         <div class="tab-pane fade show <?php echo ($o==0)? 'active': ''?>" id="nav-<?php echo $a->slug?>" role="tabpanel" aria-labelledby="nav-<?php echo $a->slug?>-tab">
                             <div class="row">
                                 <?php
+                                    $ids = get_the_ID();
                                     $project = array(
                                         'posts_per_page'   => -1,
                                         'post_type'        => 'project',
@@ -101,10 +84,11 @@ get_header();
                                                 'field' => 'term_id',
                                                 'terms' => $a->term_id,
                                             )
-                                        )
+                                        ),
                                     );
                                     $allproject = new WP_Query($project);
                                     if($allproject->have_posts()):while ($allproject->have_posts()):$allproject->the_post();
+                                        if(in_array($ids,get_field('service'))):
                                 ?>
                                 <div class="col-sm-4">
                                     <figure data-aos="fade-up" data-aos-delay="200">
@@ -115,6 +99,7 @@ get_header();
                                     </figure>
                                 </div>
                                 <?php
+                                        endif;
                                     endwhile;
                                     else:
                                         echo '<div class="col-sm-12"> <div class="alert alert-secondary" role="alert"> Dự án '.$a->name.' đang được cập nhật</div></div>';
@@ -143,7 +128,7 @@ get_header();
                     'posts_per_page'   => 4,
                     'post_type'        => 'service',
                     'post_status'      => 'publish',
-                    'orderby'   => 'rand',
+                    'post__not_in'      => array(get_the_ID()),
                 );
                 $allservice = new WP_Query($service);
                 $i= $j = 0;

@@ -106,13 +106,60 @@ Apps = {
     },
     searchpop: function(){
         jQuery('.search_click').on('click', function(event) {
-            jQuery('#search').addClass('open');
+            jQuery('#search').toggleClass('open');
             jQuery('#search > form > input[type="search"]').focus();
         });
         jQuery('#search, #search button.close').on('click keyup', function(event) {
             if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
                 jQuery(this).removeClass('open');
             }
+        });
+    },
+    formsidebar: function () {
+        if(jQuery('.price_list .show_form').length){
+            jQuery('.price_list .show_form').each(function(){
+                jQuery(this).click(function(){
+                    jQuery('#form-right').toggleClass('open');
+                })
+            });
+        }
+        if(jQuery('#form-right .close i').length){
+            jQuery('#form-right .close i').each(function(){
+                jQuery(this).click(function(){
+                    jQuery('#form-right').removeClass('open');
+                })
+            })
+        }
+    },
+    slideproject: function(){
+        $(".slickcenter").slick({
+            centerMode: true,
+            centerPadding: '30px',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
     }
 
@@ -122,9 +169,11 @@ jQuery(document).ready(function(){
     Apps.scrollfixed();
     Apps.drawsvgfunc();
     Apps.slider();
+    Apps.slideproject();
     Apps.searchpop();
     Apps.scrolltop();
     Apps.mapcontact();
+    Apps.formsidebar();
     AOS.init({
         duration: 600,
         easing: 'ease-in-sine',

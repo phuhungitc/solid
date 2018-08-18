@@ -10,3 +10,184 @@
 [10-Aug-2018 10:31:28 UTC] PHP Parse error:  syntax error, unexpected '=' in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\page-dich-vu.php on line 164
 [10-Aug-2018 11:12:09 UTC] PHP Notice:  Undefined variable: i in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\page-dich-vu.php on line 76
 [10-Aug-2018 11:12:09 UTC] PHP Notice:  Undefined variable: i in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\page-dich-vu.php on line 77
+[13-Aug-2018 10:11:22 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 149
+[13-Aug-2018 10:11:23 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 123
+[13-Aug-2018 10:11:31 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 149
+[13-Aug-2018 10:11:31 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 123
+[13-Aug-2018 10:12:37 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 149
+[13-Aug-2018 10:12:37 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 123
+[13-Aug-2018 10:12:57 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 149
+[13-Aug-2018 10:12:57 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 123
+[13-Aug-2018 10:14:38 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 149
+[13-Aug-2018 10:14:38 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 123
+[13-Aug-2018 11:25:19 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 149
+[13-Aug-2018 11:25:19 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 123
+[16-Aug-2018 09:50:37 UTC] PHP Recoverable fatal error:  Object of class WP_Term could not be converted to string in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 19
+[16-Aug-2018 09:51:58 UTC] PHP Recoverable fatal error:  Object of class WP_Term could not be converted to string in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 20
+[16-Aug-2018 09:52:14 UTC] PHP Recoverable fatal error:  Object of class WP_Term could not be converted to string in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 20
+[16-Aug-2018 09:59:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 52
+[16-Aug-2018 10:01:46 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 52
+[16-Aug-2018 10:02:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 50
+[16-Aug-2018 10:02:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 50
+[16-Aug-2018 10:02:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 53
+[16-Aug-2018 10:03:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 50
+[16-Aug-2018 10:03:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 50
+[16-Aug-2018 10:03:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 53
+[16-Aug-2018 10:04:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 50
+[16-Aug-2018 10:04:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 50
+[16-Aug-2018 10:04:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 53
+[16-Aug-2018 10:04:25 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 50
+[16-Aug-2018 10:04:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 53
+[16-Aug-2018 10:07:08 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 42
+[16-Aug-2018 10:07:08 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 280
+[16-Aug-2018 10:07:08 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 42
+[16-Aug-2018 10:07:08 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 306
+[16-Aug-2018 10:07:12 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 42
+[16-Aug-2018 10:07:12 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 280
+[16-Aug-2018 10:07:12 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 42
+[16-Aug-2018 10:07:12 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 306
+[16-Aug-2018 10:07:24 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 42
+[16-Aug-2018 10:07:24 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 280
+[16-Aug-2018 10:07:24 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 42
+[16-Aug-2018 10:07:24 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\comma\solid\apps\plugins\advanced-custom-fields-pro\includes\api\api-value.php on line 306
+[16-Aug-2018 10:11:30 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[16-Aug-2018 10:11:30 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[16-Aug-2018 10:11:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND ( 
+  ( cms_postmeta.meta_key = 'featured_project' AND cms_postmeta.meta_va' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  INNER JOIN cms_postmeta ON ( cms_posts.ID = cms_postmeta.post_id ) WHERE 1=1  AND cms_posts.ID NOT IN () AND ( 
+  ( cms_postmeta.meta_key = 'featured_project' AND cms_postmeta.meta_value = '1' )
+) AND cms_posts.post_type = 'project' AND ((cms_posts.post_status = 'publish')) GROUP BY cms_posts.ID ORDER BY cms_posts.post_date DESC LIMIT 0, 3 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[16-Aug-2018 10:11:30 UTC] PHP Notice:  Undefined variable: a in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 132
+[16-Aug-2018 10:11:30 UTC] PHP Notice:  Trying to get property 'name' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 132
+[16-Aug-2018 10:11:31 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[16-Aug-2018 10:11:31 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[16-Aug-2018 10:11:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND ( 
+  ( cms_postmeta.meta_key = 'featured_project' AND cms_postmeta.meta_va' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  INNER JOIN cms_postmeta ON ( cms_posts.ID = cms_postmeta.post_id ) WHERE 1=1  AND cms_posts.ID NOT IN () AND ( 
+  ( cms_postmeta.meta_key = 'featured_project' AND cms_postmeta.meta_value = '1' )
+) AND cms_posts.post_type = 'project' AND ((cms_posts.post_status = 'publish')) GROUP BY cms_posts.ID ORDER BY cms_posts.post_date DESC LIMIT 0, 3 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[16-Aug-2018 10:11:31 UTC] PHP Notice:  Undefined variable: a in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 132
+[16-Aug-2018 10:11:31 UTC] PHP Notice:  Trying to get property 'name' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-project.php on line 132
+[17-Aug-2018 02:53:49 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 213
+[17-Aug-2018 02:53:49 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 229
+[17-Aug-2018 02:53:49 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeStyles.php on line 98
+[17-Aug-2018 02:53:49 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 213
+[17-Aug-2018 02:53:49 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 229
+[17-Aug-2018 02:53:49 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeStyles.php on line 483
+[17-Aug-2018 02:53:53 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 213
+[17-Aug-2018 02:53:53 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 229
+[17-Aug-2018 02:53:53 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeStyles.php on line 98
+[17-Aug-2018 02:53:53 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 213
+[17-Aug-2018 02:53:53 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 229
+[17-Aug-2018 02:53:53 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeStyles.php on line 483
+[17-Aug-2018 02:54:12 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 213
+[17-Aug-2018 02:54:12 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 229
+[17-Aug-2018 02:54:12 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeStyles.php on line 98
+[17-Aug-2018 02:54:12 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 213
+[17-Aug-2018 02:54:12 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeBase.php on line 229
+[17-Aug-2018 02:54:12 UTC] PHP Deprecated:  Function create_function() is deprecated in D:\xampp\htdocs\comma\solid\apps\plugins\autoptimize\classes\autoptimizeStyles.php on line 483
+[17-Aug-2018 03:02:15 UTC] PHP Notice:  Trying to get property 'name' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 25
+[17-Aug-2018 03:02:15 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 110
+[17-Aug-2018 03:02:15 UTC] PHP Notice:  Undefined variable: a in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 128
+[17-Aug-2018 03:02:15 UTC] PHP Notice:  Trying to get property 'name' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 128
+[17-Aug-2018 03:02:18 UTC] PHP Notice:  Trying to get property 'name' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 25
+[17-Aug-2018 03:02:18 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 110
+[17-Aug-2018 03:02:18 UTC] PHP Notice:  Undefined variable: a in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 128
+[17-Aug-2018 03:02:18 UTC] PHP Notice:  Trying to get property 'name' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 128
+[17-Aug-2018 03:02:43 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 108
+[17-Aug-2018 03:02:43 UTC] PHP Notice:  Undefined variable: a in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 126
+[17-Aug-2018 03:02:44 UTC] PHP Notice:  Trying to get property 'name' of non-object in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single.php on line 126
+[17-Aug-2018 06:55:03 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:55:03 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:55:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish')) ' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  WHERE 1=1  AND cms_posts.ID NOT IN () AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish'))  ORDER BY cms_posts.post_date DESC LIMIT 0, 4 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2018 06:56:04 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:56:04 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:56:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish')) ' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  WHERE 1=1  AND cms_posts.ID NOT IN () AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish'))  ORDER BY cms_posts.post_date DESC LIMIT 0, 4 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2018 06:58:14 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:58:14 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:58:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish')) ' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  WHERE 1=1  AND cms_posts.ID NOT IN () AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish'))  ORDER BY cms_posts.post_date DESC LIMIT 0, 4 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2018 06:59:02 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:59:02 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:59:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish')) ' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  WHERE 1=1  AND cms_posts.ID NOT IN () AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish'))  ORDER BY cms_posts.post_date DESC LIMIT 0, 4 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2018 06:59:56 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:59:56 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 06:59:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish')) ' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  WHERE 1=1  AND cms_posts.ID NOT IN () AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish'))  ORDER BY cms_posts.post_date DESC LIMIT 0, 4 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2018 07:00:20 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 07:00:20 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 07:00:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish')) ' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  WHERE 1=1  AND cms_posts.ID NOT IN () AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish'))  ORDER BY cms_posts.post_date DESC LIMIT 0, 4 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2018 07:00:22 UTC] PHP Warning:  array_map(): Argument #2 should be an array in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 07:00:22 UTC] PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-query.php on line 1921
+[17-Aug-2018 07:00:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish')) ' at line 1 for query SELECT SQL_CALC_FOUND_ROWS  cms_posts.ID FROM cms_posts  WHERE 1=1  AND cms_posts.ID NOT IN () AND cms_posts.post_type = 'service' AND ((cms_posts.post_status = 'publish'))  ORDER BY cms_posts.post_date DESC LIMIT 0, 4 made by require('D:\xampp\htdocs\comma\solid\wp-blog-header.php'), require_once('D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php'), include('D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php'), WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2018 07:45:42 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 88
+[17-Aug-2018 07:45:42 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 88
+[17-Aug-2018 07:45:42 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 88
+[17-Aug-2018 07:45:42 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 88
+[17-Aug-2018 07:45:42 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 88
+[17-Aug-2018 07:45:42 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 88
+[17-Aug-2018 07:56:10 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:11 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:11 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:11 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:11 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:11 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:39 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:39 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:39 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:39 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:39 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:39 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:45 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:45 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:45 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:45 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:45 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 07:56:45 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:00:31 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:00:31 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:00:31 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:00:31 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:00:31 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:00:31 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:01:15 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:01:15 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:01:15 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:01:15 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:01:15 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:01:15 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:03:06 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:03:06 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:03:06 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:03:06 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:03:06 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:03:06 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:11:22 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:11:23 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:11:23 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:11:23 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:11:23 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:11:23 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:22 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:22 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:22 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:22 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:22 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:22 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:59 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:59 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:59 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:59 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:59 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:35:59 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in D:\xampp\htdocs\comma\solid\wp-includes\class-wp-meta-query.php on line 577
+[17-Aug-2018 08:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php:90
+Stack trace:
+#0 D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\comma\solid\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\comma\solid\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 90
+[17-Aug-2018 08:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php:90
+Stack trace:
+#0 D:\xampp\htdocs\comma\solid\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\comma\solid\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\comma\solid\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 90
+[17-Aug-2018 08:44:07 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 111
