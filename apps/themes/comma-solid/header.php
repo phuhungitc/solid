@@ -31,7 +31,6 @@
     </script>
     <?php endif;?>
 </head>
-
 <body <?php body_class(); ?>>
 <div id="search">
     <span class="close">x</span>
@@ -139,7 +138,8 @@
                 <div class="right-top-nav">
                     <ul class="nav justify-content-end">
                         <li class="nav-item"><a class="nav-link" href="tel:<?php echo get_field('phone','option')?>"><img src="<?php echo get_template_directory_uri()?>/images/phone.png" class="img-fluid" alt=""><?php echo get_field('phone','option')?></a></li>
-                        <li class="nav-item d-none d-sm-block"><a class="nav-link search_click" href="javascript:;"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <li class="nav-item d-none d-sm-block"><a class="nav-link search_click" href="javascript:;"><img
+                                        src="<?php echo get_template_directory_uri()?>/images/search.png" alt=""></a>
                         </li>
                     </ul>
                 </div>

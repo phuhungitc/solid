@@ -74,7 +74,7 @@ get_header();
             <div class="row justify-content-center">
                 <?php
                 $service = array(
-                    'posts_per_page'   => 5,
+                    'posts_per_page'   => -1,
                     'post_type'        => 'service',
                     'post_status'      => 'publish',
                 );

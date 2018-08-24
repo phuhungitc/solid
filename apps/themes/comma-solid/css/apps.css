@@ -1416,6 +1416,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
         -ms-transition: all 0.5s ease;
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease; }
+    .search_page .item_search .title_page a {
+      color: #2B3784; }
 
 .single_project {
   padding-top: 50px; }
@@ -1708,6 +1710,13 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease; }
 
+.wp-pagenavi a, .wp-pagenavi span {
+  border: 0;
+  padding: 3px 15px;
+  background: #F0F0F0; }
+  .wp-pagenavi a:hover, .wp-pagenavi a.current, .wp-pagenavi span:hover, .wp-pagenavi span.current {
+    background: #FDB813; }
+
 @media (max-width: 767px) {
   body h1, body h2, body h3, body h4 {
     font-size: 30px; }
@@ -1788,14 +1797,14 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     padding-top: 30px;
     padding-bottom: 20px; }
 
-  .service {
+  div.service {
     padding-top: 0; }
 
-  .project h4 {
+  div.project h4 {
     line-height: 45px; }
-    .project h4:before {
+    div.project h4:before {
       width: 90px; }
-  .project .item_project.margin-large {
+  div.project .item_project.margin-large {
     margin-top: 50px; }
 
   .page-intro .box-first h1 {

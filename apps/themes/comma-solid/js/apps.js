@@ -58,7 +58,6 @@ Apps = {
             var uluru = jQuery('#map').data('latlong').split('|');
             var $center = {lat: uluru[0]*1,lng: uluru[1]*1};
             var wininfo = jQuery('#map').data('winfo');
-            console.log($center);
             map = new google.maps.Map(document.getElementById('map'), {
                 center: $center,
                 zoom: 15
@@ -132,7 +131,7 @@ Apps = {
         }
     },
     slideproject: function(){
-        $(".slickcenter").slick({
+        jQuery(".slickcenter").slick({
             centerMode: true,
             centerPadding: '30px',
             slidesToShow: 1,

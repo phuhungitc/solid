@@ -11,7 +11,7 @@
 
 ?>
 
-<div id="footer-site">
+<footer id="footer-site">
     <div class="container">
         <a href="<?php echo site_url()?>" class="logo-footer" data-aos="fade-left">
             <img src="<?php echo (get_field('logo_ft','option')!="")? get_field('logo_ft','option') : get_template_directory_uri().'/images/logoft.png'?>" class="img-fluid" alt="">
@@ -59,9 +59,9 @@
         </div>
     </div>
 </footer>
+
 </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7cMS6OiPABZtUyEwn0xbKF1hkfH0NZB0"></script>
 <?php wp_footer(); ?>
-
 </body>
 </html>

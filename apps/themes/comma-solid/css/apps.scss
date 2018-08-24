@@ -1757,6 +1757,11 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
         }
       }
     }
+    .title_page{
+      a{
+        color: $primary_color;
+      }
+    }
   }
 }
 .single_project{
@@ -2118,6 +2123,16 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
     }
   }
 }
+.wp-pagenavi {
+  a, span{
+    border: 0;
+    padding: 3px 15px;
+    background: #F0F0F0;
+    &:hover,&.current{
+      background: $second_color;
+    }
+  }
+}
 @media (max-width: 767px) {
   body{
     h1,h2,h3,h4{
@@ -2218,11 +2233,11 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
     padding-bottom: 20px;
   }
 //  service
-  .service{
+  div.service{
     padding-top: 0;
   }
 //  .project
-  .project {
+  div.project {
     h4{
       line-height: 45px;
       &:before{
@@ -2315,6 +2330,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
       }
     }
   }
+
   #footer-site{
     p{
       margin-bottom: 15px;

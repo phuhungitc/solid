@@ -248,7 +248,7 @@ function replace_core_jquery_version() {
     wp_register_script( 'jquery-core', get_template_directory_uri() . "/js/jquery-3.3.1.min.js", array(), '3.1.1' );
 
 }
-add_action( 'wp_enqueue_scripts', 'replace_core_jquery_version' );
+//add_action( 'wp_enqueue_scripts', 'replace_core_jquery_version' );
 
 add_action('wp_enqueue_scripts', 'add_theme_scripts', 999);
 
