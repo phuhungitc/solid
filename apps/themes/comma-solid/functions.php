@@ -779,3 +779,11 @@ add_filter('intermediate_image_sizes_advanced', 'paulund_remove_default_image_si
 
 add_image_size( 'square', 350, 350, true );
 add_image_size( 'thumbnail-custom', 350, 200, true );
+
+function remove_menus(){
+    remove_menu_page( 'edit-comments.php' );          //Comments
+    remove_menu_page( 'tools.php' );                  //Tools
+    remove_menu_page( 'toolset-dashboard' );                //Tools
+    remove_menu_page( 'edit.php?post_type=acf-field-group' );                  //Tools
+}
+add_action( 'admin_menu', 'remove_menus' ,999);

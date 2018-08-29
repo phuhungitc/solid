@@ -191,3 +191,5 @@ Stack trace:
 #3 {main}
   thrown in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 90
 [17-Aug-2018 08:44:07 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in D:\xampp\htdocs\comma\solid\apps\themes\comma-solid\single-service.php on line 111
+[28-Aug-2018 11:12:17 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 149
+[28-Aug-2018 11:12:17 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in D:\xampp\htdocs\comma\solid\apps\plugins\duplicate-post\duplicate-post-common.php on line 123

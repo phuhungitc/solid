@@ -63,5 +63,18 @@
 </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7cMS6OiPABZtUyEwn0xbKF1hkfH0NZB0"></script>
 <?php wp_footer(); ?>
+<?php
+if(function_exists('get_field')&&get_field('google_analytics','option')==true):
+    ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo wp_trim_words(get_field('id_analytics','option'))?>"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '<?php echo wp_trim_words(get_field('id_analytics','option'))?>');
+    </script>
+<?php endif;?>
 </body>
 </html>

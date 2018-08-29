@@ -160,7 +160,7 @@ Apps = {
                 }
             ]
         });
-    }
+    },
 
 };
 jQuery(document).ready(function(){

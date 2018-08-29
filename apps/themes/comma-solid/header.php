@@ -17,19 +17,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <?php wp_head(); ?>
-    <?php
-    if(function_exists('get_field')&&get_field('google_analytics','option')==true):
-    ?>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo wp_trim_words(get_field('id_analytics','option'))?>"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', '<?php echo wp_trim_words(get_field('id_analytics','option'))?>');
-    </script>
-    <?php endif;?>
 </head>
 <body <?php body_class(); ?>>
 <div id="search">
